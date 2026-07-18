@@ -1,2 +1,11 @@
 # Litchi-PestDet
 Efficient Litchi Disease and Pest Detection Algorithm Based on YOLOv12 (MSPF, DHAM, SPDE)
+# 数据集分卷说明
+两套压缩分卷：
+1. litchi_yolo_format.zip.001 ~ 002：YOLO标注数据集
+2. yolo12-litchi.zip 分卷包含：001,002,003,004,005,006,007,008,009,010,011,012,013,014,015,016,017,018,019,020,021
+
+## 解压步骤
+1. 将同系列所有分卷放在同一个文件夹，**不能缺失、不能改名**
+2. 使用7-Zip/WinRAR打开编号001的文件，一键全部合并解压
+3. 缺失任意分卷都无法解压出完整文件
